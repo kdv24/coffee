@@ -11,7 +11,7 @@ function greeting_menu() {
 	  'page callback' => 'say_hello',
 	  //access callback defines permissions- set to TRUE means user has permission to access this URL
 	  'access callback' => TRUE,
-	  //type is a constant in Drupal.  MENU_NORMAL_ITEM allows link to show up in Navigation menu and be moveable like other menu links in Drupal
+	  //type is a constant in Drupal.  MENU_NORMAL_ITEM allows link to show up in Navigation menu and be moveable like other menu links in Drupal  MENU_CALLBACK still calls function, but doesn't appear in menu (eg, for a "success page" after form submission)
 	  'type' => MENU_CALLBACK,
 	 );
 	$items['farewell'] = array(
