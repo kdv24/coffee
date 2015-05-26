@@ -1,0 +1,9 @@
+name = Limit Menu and Contact
+description = limits contact form info and recipe settings
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = limit_menu_and_contact
+dependencies[] = simple_contact
+dependencies[] = support
+features[features_api][] = api:2

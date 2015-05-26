@@ -8,6 +8,7 @@ function support_form_alter(&$form, &$form_state, $form_id) {
     //drupal_set_message("Form ID is : " . $form_id);
     $form ['menu']['#access'] = 0;
     $form['comment_settings']['#access'] = 0;
+    $form['comment_settings']['comment']['#default_value'] = 1;
     $form['author']['#access'] = 0;
     $form['revision_information']['#access'] = 0;
     $form['options']['#access'] = 0;
