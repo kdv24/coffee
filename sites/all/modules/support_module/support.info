@@ -1,0 +1,5 @@
+name = Support Module
+description = Hides all menu tabs except for URL path
+package = Custom
+core = 7.x
+files[] = support.module
