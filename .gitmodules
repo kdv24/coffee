@@ -1,3 +1,6 @@
 [submodule "sites/all/modules/follow_extension"]
 	path = sites/all/modules/follow_extension
 	url = https://github.com/kdv24/follow_extension.git
+[submodule "sites/all/modules/view_users"]
+	path = sites/all/modules/view_users
+	url = https://github.com/kdv24/view_users_feature_module.git
